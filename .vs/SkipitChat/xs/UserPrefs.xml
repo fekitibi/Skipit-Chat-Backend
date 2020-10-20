@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{C7A0AFF2-0AFD-47E6-8D2A-C392E51C1100}|SkipitChat">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SkipitChat/Data/ApplicationDbContext.cs">
+    <Files>
+      <File FileName="SkipitChat/Services/AccessibilityService.cs" Line="1" Column="1" />
+      <File FileName="SkipitChat/Startup.cs" />
+      <File FileName="SkipitChat/Program.cs" />
+      <File FileName="SkipitChat/Data/ApplicationDbContext.cs" Line="23" Column="1" />
+      <File FileName="SkipitChat/appsettings.json" />
+      <File FileName="SkipitChat/appsettings.Development.json" />
+      <File FileName="SkipitChat/mono_crash.11a6748113.0.json" />
+      <File FileName="SkipitChat/Controllers/V1/AccessibilitiesController.cs" />
+      <File FileName="SkipitChat/Controllers/V1/PostsController.cs" />
+      <File FileName="SkipitChat/Controllers/V1/TicketsController.cs" />
+      <File FileName="SkipitChat/Contracts/V1/ApiRoutes.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SkipitChat" expanded="True">
+            <Node name="SkipitChat" expanded="True">
+              <Node name="Contracts" expanded="True">
+                <Node name="V1" expanded="True" />
+              </Node>
+              <Node name="Data" expanded="True">
+                <Node name="ApplicationDbContext.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SkipitChat PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Tweetbook/SkipitChat.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

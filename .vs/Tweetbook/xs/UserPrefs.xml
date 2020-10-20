@@ -1,0 +1,70 @@
+﻿<Properties StartupConfiguration="{98F0378F-829D-4685-B9C8-715A8C884FE0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tweetbook/Data/ApplicationDbContext.cs">
+    <Files>
+      <File FileName="Tweetbook/Data/ApplicationDbContext.cs" Line="20" Column="9" />
+      <File FileName="Tweetbook/appsettings.Development.json" />
+      <File FileName="Tweetbook/appsettings.json" />
+      <File FileName="Tweetbook/Startup.cs" />
+      <File FileName="Tweetbook/Properties/SwaggerOptions.cs" />
+      <File FileName="Tweetbook/app.db" />
+      <File FileName="Tweetbook/Program.cs" />
+      <File FileName="Tweetbook/mono_crash.11a6748113.0.json" />
+      <File FileName="Tweetbook/Properties/launchSettings.json" />
+      <File FileName="Tweetbook/Domain/Post.cs" />
+      <File FileName="Tweetbook/Installers/RazorInstaller.cs" />
+      <File FileName="Tweetbook/Installers/DbInstaller.cs" />
+      <File FileName="Tweetbook/Installers/InstallerExtensions.cs" />
+      <File FileName="Tweetbook/Controllers/V1/PostsController.cs" />
+      <File FileName="Tweetbook/Contracts/V1/ApiRoutes.cs" />
+      <File FileName="Tweetbook/Contracts/V1/Requests/CreatePostRequest.cs" />
+      <File FileName="Tweetbook/Contracts/V1/Response/PostResponse.cs" />
+      <File FileName="Tweetbook/Services/IPostService.cs" />
+      <File FileName="Tweetbook/Services/PostService.cs" />
+      <File FileName="Tweetbook/Contracts/V1/Requests/UpdatePostRequest.cs" />
+      <File FileName="Tweetbook/Installers/IInstaller.cs" />
+      <File FileName="Tweetbook/Services/AccessibilityService.cs" />
+      <File FileName="Tweetbook/Controllers/V1/AccessibilitiesController.cs" />
+      <File FileName="Tweetbook/Controllers/V1/TicketsController.cs" />
+      <File FileName="Tweetbook/Domain/Accessibility.cs" />
+      <File FileName="Tweetbook/Domain/CityPass.cs" />
+      <File FileName="Tweetbook/Services/ITicketService.cs" />
+      <File FileName="Tweetbook/Services/TicketService.cs" />
+      <File FileName="Tweetbook/Services/IAccessibilityService.cs" />
+      <File FileName="Tweetbook/Contracts/V1/Response/CityPassResponse.cs" />
+      <File FileName="Tweetbook/Contracts/V1/Response/ZoneResponse.cs" />
+      <File FileName="Tweetbook/Domain/Zone.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tweetbook" expanded="True" selected="True">
+            <Node name="Tweetbook" expanded="True">
+              <Node name="Contracts" expanded="True">
+                <Node name="V1" expanded="True">
+                  <Node name="Requests" expanded="True" />
+                  <Node name="Response" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="V1" expanded="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Domain" expanded="True" />
+              <Node name="Installers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Tweetbook PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
