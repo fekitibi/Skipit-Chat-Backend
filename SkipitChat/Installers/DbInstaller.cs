@@ -18,7 +18,18 @@ namespace SkipitChat.Installers
                 options.UseSqlite(
                     configuration.GetConnectionString("DefaultConnection")));*/
 
-            services.AddDbContextPool<ApplicationDbContext>(
+            string environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+
+    
+
+            if (environment != null)
+            {
+                var config = new ConfigurationBuilder()
+                    .AddJsonFile("appsettings.json")
+                    .AddJsonFile($"appsettings.{environment}.json")
+                    .Build();
+
+                services.AddDbContextPool<ApplicationDbContext>(
                 dbContextOptions => dbContextOptions
                     .UseMySql(
                         configuration.GetConnectionString("DefaultConnection"),
@@ -34,14 +45,20 @@ namespace SkipitChat.Installers
                                 .AddFilter(level => level >= LogLevel.Information)))
                     .EnableSensitiveDataLogging()
                     .EnableDetailedErrors());
-         
 
-            services.AddDefaultIdentity<IdentityUser>()
-                .AddEntityFrameworkStores<Data.ApplicationDbContext>();
 
-            services.AddScoped<IPostService, PostService>();
-            services.AddScoped<IAccessibilityService, AccessibilityService>();
-            services.AddScoped<ITicketService, TicketService>();
+                services.AddDefaultIdentity<IdentityUser>()
+                    .AddEntityFrameworkStores<Data.ApplicationDbContext>();
+
+                services.AddScoped<IPostService, PostService>();
+                services.AddScoped<IAccessibilityService, AccessibilityService>();
+                services.AddScoped<ITicketService, TicketService>();
+            }
+            else
+            {
+                Console.WriteLine("Fatal error: environment not found!");
+                Environment.Exit(-1);
+            }
         }
     }
 }

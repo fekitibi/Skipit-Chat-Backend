@@ -81,3 +81,4 @@
 /Users/tiborfekete/Projects/SkipitChat/SkipitChat/obj/Debug/netcoreapp3.1/SkipitChat.dll
 /Users/tiborfekete/Projects/SkipitChat/SkipitChat/obj/Debug/netcoreapp3.1/SkipitChat.pdb
 /Users/tiborfekete/Projects/SkipitChat/SkipitChat/obj/Debug/netcoreapp3.1/SkipitChat.genruntimeconfig.cache
+/Users/tiborfekete/Projects/SkipitChat/SkipitChat/bin/Debug/netcoreapp3.1/appsettings.Production.json

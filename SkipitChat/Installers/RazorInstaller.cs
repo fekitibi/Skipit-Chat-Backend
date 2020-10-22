@@ -12,7 +12,7 @@ namespace SkipitChat.Installers
             services.AddRazorPages();
 
             services.AddSwaggerGen(g => {
-                g.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Tweetbook API", Version = "v1" });
+                g.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Skipit API", Version = "v1" });
             });
         }
     }

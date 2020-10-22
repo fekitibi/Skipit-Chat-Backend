@@ -5,7 +5,8 @@
     <UserSecretsId>aspnet-Tweetbook-BE0EE6C3-7900-46F0-8C5E-050B178991CD</UserSecretsId>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'SkipitChat' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Production' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Development' " />
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>

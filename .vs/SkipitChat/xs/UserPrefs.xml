@@ -1,17 +1,32 @@
-﻿<Properties StartupConfiguration="{C7A0AFF2-0AFD-47E6-8D2A-C392E51C1100}|SkipitChat">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SkipitChat/Data/ApplicationDbContext.cs">
+﻿<Properties StartupConfiguration="{C7A0AFF2-0AFD-47E6-8D2A-C392E51C1100}|Production">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SkipitChat/Data/Migrations/20201022135655_SeedMore.cs">
     <Files>
       <File FileName="SkipitChat/Services/AccessibilityService.cs" Line="1" Column="1" />
-      <File FileName="SkipitChat/Startup.cs" />
-      <File FileName="SkipitChat/Program.cs" />
-      <File FileName="SkipitChat/Data/ApplicationDbContext.cs" Line="23" Column="1" />
-      <File FileName="SkipitChat/appsettings.json" />
-      <File FileName="SkipitChat/appsettings.Development.json" />
+      <File FileName="SkipitChat/Startup.cs" Line="43" Column="14" />
+      <File FileName="SkipitChat/Program.cs" Line="17" Column="32" />
+      <File FileName="SkipitChat/Data/ApplicationDbContext.cs" Line="123" Column="1" />
+      <File FileName="SkipitChat/appsettings.json" Line="1" Column="2" />
+      <File FileName="SkipitChat/appsettings.Development.json" Line="3" Column="67" />
       <File FileName="SkipitChat/mono_crash.11a6748113.0.json" />
       <File FileName="SkipitChat/Controllers/V1/AccessibilitiesController.cs" />
       <File FileName="SkipitChat/Controllers/V1/PostsController.cs" />
       <File FileName="SkipitChat/Controllers/V1/TicketsController.cs" />
       <File FileName="SkipitChat/Contracts/V1/ApiRoutes.cs" />
+      <File FileName="SkipitChat/Properties/SwaggerOptions.cs" Line="1" Column="1" />
+      <File FileName="SkipitChat/Properties/launchSettings.json" Line="34" Column="47" />
+      <File FileName="SkipitChat/Domain/CityPass.cs" Line="12" Column="51" />
+      <File FileName="SkipitChat/Installers/IInstaller.cs" Line="1" Column="1" />
+      <File FileName="SkipitChat/Installers/InstallerExtensions.cs" Line="1" Column="1" />
+      <File FileName="SkipitChat/Installers/RazorInstaller.cs" Line="15" Column="94" />
+      <File FileName="SkipitChat/Installers/DbInstaller.cs" Line="25" Column="28" />
+      <File FileName="SkipitChat/appsettings.Production.json" Line="12" Column="4" />
+      <File FileName="SkipitChat/Domain/Accessibility.cs" Line="8" Column="14" />
+      <File FileName="SkipitChat/Domain/Post.cs" Line="1" Column="1" />
+      <File FileName="SkipitChat/Domain/Zone.cs" Line="16" Column="43" />
+      <File FileName="SkipitChat/Migrations/20201022132920_Initial.cs" Line="1" Column="1" />
+      <File FileName="SkipitChat/Data/Migrations/ApplicationDbContextModelSnapshot.cs" Line="216" Column="34" />
+      <File FileName="SkipitChat/Data/Migrations/20201022133139_SeedInitialData.cs" Line="1" Column="1" />
+      <File FileName="SkipitChat/Data/Migrations/20201022135655_SeedMore.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,8 +37,14 @@
                 <Node name="V1" expanded="True" />
               </Node>
               <Node name="Data" expanded="True">
-                <Node name="ApplicationDbContext.cs" selected="True" />
+                <Node name="Migrations" expanded="True">
+                  <Node name="20201022135655_SeedMore.cs" selected="True" />
+                </Node>
               </Node>
+              <Node name="Domain" expanded="True" />
+              <Node name="Installers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -36,6 +57,7 @@
     <String>Tweetbook/SkipitChat.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SkipitChat.Data;
 
 namespace SkipitChat.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201022133139_SeedInitialData")]
+    partial class SeedInitialData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -256,7 +258,7 @@ namespace SkipitChat.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("bb38fc53-bf4d-4d07-9d9d-882e5b84fa67"),
+                            Id = new Guid("76038447-f535-48d0-a34e-7ddb314204ab"),
                             BikeParking = true,
                             Comment = "",
                             DisabledService = true,
@@ -270,7 +272,7 @@ namespace SkipitChat.Migrations
                         },
                         new
                         {
-                            Id = new Guid("3aa9b509-fed5-43c5-8f2c-f46440e26804"),
+                            Id = new Guid("a3519699-c1bf-4152-a89e-19ef1ba3db5c"),
                             BikeParking = false,
                             Comment = "",
                             DisabledService = false,
@@ -284,7 +286,7 @@ namespace SkipitChat.Migrations
                         },
                         new
                         {
-                            Id = new Guid("2fb35348-618c-4bd8-ba16-e342c7041a75"),
+                            Id = new Guid("ab126c7e-cbbe-4ffb-9591-b7c45e6a28f0"),
                             BikeParking = false,
                             Comment = "",
                             DisabledService = false,
@@ -316,29 +318,6 @@ namespace SkipitChat.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("CityPasses");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("363aef28-0261-469b-a428-488979bee6fa"),
-                            CityPass4Price = 2345f,
-                            CityPass99Price = 3000f,
-                            DurationInHour = 244
-                        },
-                        new
-                        {
-                            Id = new Guid("5e00fc58-3bb1-4aec-ba1c-c372abe71a00"),
-                            CityPass4Price = 55f,
-                            CityPass99Price = 90f,
-                            DurationInHour = 4
-                        },
-                        new
-                        {
-                            Id = new Guid("7dbf1d64-f612-4812-be57-5d834e172190"),
-                            CityPass4Price = 599f,
-                            CityPass99Price = 700f,
-                            DurationInHour = 24
-                        });
                 });
 
             modelBuilder.Entity("SkipitChat.Domain.Post", b =>
@@ -385,41 +364,6 @@ namespace SkipitChat.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Zones");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 2,
-                            Animal = 20f,
-                            Bycicle = 20f,
-                            DurationInMinute = 120,
-                            PriceAdult = 10f,
-                            PriceChildren = 5f,
-                            PriceDisabled = 5f,
-                            PriceElderly = 5f
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Animal = 20f,
-                            Bycicle = 9f,
-                            DurationInMinute = 170,
-                            PriceAdult = 6f,
-                            PriceChildren = 4f,
-                            PriceDisabled = 5f,
-                            PriceElderly = 7f
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Animal = 20f,
-                            Bycicle = 20f,
-                            DurationInMinute = 120,
-                            PriceAdult = 17f,
-                            PriceChildren = 7f,
-                            PriceDisabled = 5f,
-                            PriceElderly = 7f
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

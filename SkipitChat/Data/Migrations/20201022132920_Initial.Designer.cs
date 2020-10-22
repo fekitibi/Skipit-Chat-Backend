@@ -9,7 +9,7 @@ using SkipitChat.Data;
 namespace SkipitChat.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20201012083937_Initial")]
+    [Migration("20201022132920_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -215,7 +215,7 @@ namespace SkipitChat.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("Tweetbook.Domain.Accessibility", b =>
+            modelBuilder.Entity("SkipitChat.Domain.Accessibility", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -256,7 +256,7 @@ namespace SkipitChat.Migrations
                     b.ToTable("Accessiblities");
                 });
 
-            modelBuilder.Entity("Tweetbook.Domain.CityPass", b =>
+            modelBuilder.Entity("SkipitChat.Domain.CityPass", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -276,7 +276,7 @@ namespace SkipitChat.Migrations
                     b.ToTable("CityPasses");
                 });
 
-            modelBuilder.Entity("Tweetbook.Domain.Post", b =>
+            modelBuilder.Entity("SkipitChat.Domain.Post", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -290,7 +290,7 @@ namespace SkipitChat.Migrations
                     b.ToTable("Posts");
                 });
 
-            modelBuilder.Entity("Tweetbook.Domain.Zone", b =>
+            modelBuilder.Entity("SkipitChat.Domain.Zone", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
