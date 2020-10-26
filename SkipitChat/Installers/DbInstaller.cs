@@ -50,7 +50,7 @@ namespace SkipitChat.Installers
                 services.AddDefaultIdentity<IdentityUser>()
                     .AddEntityFrameworkStores<Data.ApplicationDbContext>();
 
-                services.AddScoped<IPostService, PostService>();
+                //services.AddScoped<IPostService, PostService>();
                 services.AddScoped<IAccessibilityService, AccessibilityService>();
                 services.AddScoped<ITicketService, TicketService>();
             }

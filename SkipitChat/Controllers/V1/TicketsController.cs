@@ -124,5 +124,11 @@ namespace SkipitChat.Controllers.V1
 
             return Ok(new ZoneResponse { Duration = zone.DurationInMinute, Price = price });
         }
+
+        [HttpGet(ApiRoutes.Tickets.GetAllZones)]
+        public async Task<IActionResult> GetAllZones()
+        {
+            return Ok(await _ticketService.GetAllZones());
+        }
     }
 }

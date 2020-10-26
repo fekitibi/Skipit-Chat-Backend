@@ -21,6 +21,11 @@ namespace SkipitChat.Services
             return await _dbContext.CityPasses.ToListAsync();
         }
 
+        public async Task<List<Zone>> GetAllZones()
+        {
+            return await _dbContext.Zones.ToListAsync();
+        }
+
         // The given duration should be in hours
         public async Task<CityPass> GetCityPassByDuration(int duration)
         {

@@ -13,7 +13,7 @@ namespace SkipitChat.Controllers
 {
     public class PostsController: Controller
     {
-        private readonly IPostService _postService;
+        /*private readonly IPostService _postService;
 
         public PostsController(IPostService postService)
         {
@@ -77,6 +77,6 @@ namespace SkipitChat.Controllers
             var response = new PostResponse { Id = post.Id};
 
             return Created(locationUrl, response);
-        }
+        }*/
     }
 }

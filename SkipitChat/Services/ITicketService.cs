@@ -7,6 +7,7 @@ namespace SkipitChat.Services
 {
     public interface ITicketService
     {
+        Task<List<Zone>> GetAllZones();
         Task<List<CityPass>> GetAllCityPass();
         Task<CityPass> GetCityPassByDuration(int duration);
         Task<Zone> GetZoneByZoneNumber(int zoneNumber);
