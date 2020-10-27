@@ -1,24 +1,24 @@
-﻿<Properties StartupConfiguration="{C7A0AFF2-0AFD-47E6-8D2A-C392E51C1100}|Development">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SkipitChat/Contracts/V1/Requests/UpdatePostRequest.cs">
+﻿<Properties StartupConfiguration="{C7A0AFF2-0AFD-47E6-8D2A-C392E51C1100}|Production">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SkipitChat/Installers/DbInstaller.cs">
     <Files>
       <File FileName="SkipitChat/Services/AccessibilityService.cs" Line="1" Column="1" />
       <File FileName="SkipitChat/Startup.cs" />
       <File FileName="SkipitChat/Program.cs" />
       <File FileName="SkipitChat/Data/ApplicationDbContext.cs" />
       <File FileName="SkipitChat/appsettings.json" />
-      <File FileName="SkipitChat/appsettings.Development.json" Line="3" Column="67" />
+      <File FileName="SkipitChat/appsettings.Development.json" />
       <File FileName="SkipitChat/mono_crash.11a6748113.0.json" />
       <File FileName="SkipitChat/Controllers/V1/AccessibilitiesController.cs" />
-      <File FileName="SkipitChat/Controllers/V1/PostsController.cs" Line="1" Column="1" />
-      <File FileName="SkipitChat/Controllers/V1/TicketsController.cs" Line="131" Column="55" />
-      <File FileName="SkipitChat/Contracts/V1/ApiRoutes.cs" Line="30" Column="73" />
+      <File FileName="SkipitChat/Controllers/V1/PostsController.cs" />
+      <File FileName="SkipitChat/Controllers/V1/TicketsController.cs" />
+      <File FileName="SkipitChat/Contracts/V1/ApiRoutes.cs" />
       <File FileName="SkipitChat/Properties/SwaggerOptions.cs" />
       <File FileName="SkipitChat/Properties/launchSettings.json" />
       <File FileName="SkipitChat/Domain/CityPass.cs" />
       <File FileName="SkipitChat/Installers/IInstaller.cs" />
       <File FileName="SkipitChat/Installers/InstallerExtensions.cs" />
       <File FileName="SkipitChat/Installers/RazorInstaller.cs" />
-      <File FileName="SkipitChat/Installers/DbInstaller.cs" />
+      <File FileName="SkipitChat/Installers/DbInstaller.cs" Line="53" Column="19" />
       <File FileName="SkipitChat/appsettings.Production.json" />
       <File FileName="SkipitChat/Domain/Accessibility.cs" />
       <File FileName="SkipitChat/Domain/Post.cs" />
@@ -26,12 +26,12 @@
       <File FileName="SkipitChat/Data/Migrations/ApplicationDbContextModelSnapshot.cs" />
       <File FileName="SkipitChat/Data/Migrations/20201022133139_SeedInitialData.cs" />
       <File FileName="SkipitChat/Data/Migrations/20201022135655_SeedMore.cs" />
-      <File FileName="SkipitChat/Services/ITicketService.cs" Line="10" Column="37" />
-      <File FileName="SkipitChat/Services/TicketService.cs" Line="26" Column="57" />
-      <File FileName="SkipitChat/Contracts/V1/Response/ZoneResponse.cs" Line="1" Column="1" />
-      <File FileName="SkipitChat/Contracts/V1/Response/CityPassResponse.cs" Line="1" Column="1" />
-      <File FileName="SkipitChat/Contracts/V1/Requests/CreatePostRequest.cs" Line="1" Column="1" />
-      <File FileName="SkipitChat/Contracts/V1/Requests/UpdatePostRequest.cs" Line="1" Column="1" />
+      <File FileName="SkipitChat/Services/ITicketService.cs" />
+      <File FileName="SkipitChat/Services/TicketService.cs" />
+      <File FileName="SkipitChat/Contracts/V1/Response/ZoneResponse.cs" />
+      <File FileName="SkipitChat/Contracts/V1/Response/CityPassResponse.cs" />
+      <File FileName="SkipitChat/Contracts/V1/Requests/CreatePostRequest.cs" />
+      <File FileName="SkipitChat/Contracts/V1/Requests/UpdatePostRequest.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -40,9 +40,6 @@
             <Node name="SkipitChat" expanded="True">
               <Node name="Contracts" expanded="True">
                 <Node name="V1" expanded="True">
-                  <Node name="Requests" expanded="True">
-                    <Node name="UpdatePostRequest.cs" selected="True" />
-                  </Node>
                   <Node name="Response" expanded="True" />
                 </Node>
               </Node>
@@ -53,7 +50,9 @@
                 <Node name="Migrations" expanded="True" />
               </Node>
               <Node name="Domain" expanded="True" />
-              <Node name="Installers" expanded="True" />
+              <Node name="Installers" expanded="True">
+                <Node name="DbInstaller.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
@@ -68,7 +67,7 @@
   <DisabledProjects>
     <String>Tweetbook/SkipitChat.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <Debugger.DebugSourceFolders />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
