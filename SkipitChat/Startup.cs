@@ -29,13 +29,14 @@ namespace SkipitChat
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.InstallerServicesInAssembly(Configuration);
+
             services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
             {
                 builder.AllowAnyOrigin()
-                       .AllowAnyMethod()
-                       .AllowAnyHeader();
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
             }));
-            services.InstallerServicesInAssembly(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,7 +54,7 @@ namespace SkipitChat
             var swaggerOptions = new SwaggerOptions();
             Configuration.GetSection(nameof(SwaggerOptions)).Bind(swaggerOptions);
 
-          
+            app.UseCors("MyPolicy");
 
             app.UseSwagger(option => {
                 option.RouteTemplate = swaggerOptions.JsonRoute;
@@ -69,7 +70,8 @@ namespace SkipitChat
 
             app.UseRouting();
 
-     
+
+            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

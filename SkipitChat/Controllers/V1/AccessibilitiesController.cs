@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using SkipitChat.Contracts;
 using SkipitChat.Services;
 
 namespace SkipitChat.Controllers.V1
 {
+    //[EnableCors("MyPolicy")]
+    [ApiController]
     public class AccessibilitiesController:Controller
     {
         private readonly IAccessibilityService _accService;

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using SkipitChat.Contracts;
 using SkipitChat.Contracts.V1.Response;
@@ -7,6 +8,8 @@ using SkipitChat.Services;
 
 namespace SkipitChat.Controllers.V1
 {
+    //[EnableCors("MyPolicy")]
+    [ApiController]
     public class TicketsController : Controller
     {
         private readonly ITicketService _ticketService;
