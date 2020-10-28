@@ -75,9 +75,9 @@ namespace SkipitChat.Data
                     new CityPass
                     {
                         Id = Guid.NewGuid(),
-                        DurationInHour= 244 ,
+                        DurationInHour = 244,
                         CityPass4Price = 2345,
-                        CityPass99Price=3000
+                        CityPass99Price = 3000
                     },
                     new CityPass
                     {
@@ -106,7 +106,7 @@ namespace SkipitChat.Data
                         PriceChildren = 5,
                         PriceDisabled = 5,
                         PriceAdult = 10,
-                        PriceElderly = 5, 
+                        PriceElderly = 5,
                         Animal = 20,
                         Bycicle = 20,
                     },

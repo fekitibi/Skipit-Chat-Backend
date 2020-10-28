@@ -56,12 +56,15 @@ namespace SkipitChat
 
             app.UseCors("MyPolicy");
 
-            app.UseSwagger(option => {
+
+            app.UseSwagger(option =>
+            {
                 option.RouteTemplate = swaggerOptions.JsonRoute;
                 //option.SerializeAsV2 = true;
             });
 
-            app.UseSwaggerUI(option => {
+            app.UseSwaggerUI(option =>
+            {
                 option.SwaggerEndpoint(swaggerOptions.UiEndpoint, swaggerOptions.Description);
             });
 

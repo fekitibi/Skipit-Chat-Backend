@@ -18,9 +18,19 @@ namespace SkipitChat.Installers
                 options.UseSqlite(
                     configuration.GetConnectionString("DefaultConnection")));*/
 
-            string environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+            //string environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 
-    
+            services.AddDbContext<ApplicationDbContext>(options =>
+options.UseSqlServer(configuration.GetConnectionString("MyDbConnection")));
+
+            /*  *-    services.AddDefaultIdentity<IdentityUser>()
+          .AddEntityFrameworkStores<ApplicationDbContext>();*/
+
+            //services.AddScoped<IPostService, PostService>();
+            services.AddScoped<IAccessibilityService, AccessibilityService>();
+            services.AddScoped<ITicketService, TicketService>();
+
+            /*
 
             if (environment != null)
             {
@@ -29,7 +39,9 @@ namespace SkipitChat.Installers
                     .AddJsonFile($"appsettings.{environment}.json")
                     .Build();
 
-                services.AddDbContextPool<ApplicationDbContext>(
+
+
+                /*services.AddDbContextPool<ApplicationDbContext>(
                 dbContextOptions => dbContextOptions
                     .UseMySql(
                         configuration.GetConnectionString("DefaultConnection"),
@@ -44,21 +56,16 @@ namespace SkipitChat.Installers
                                 .AddConsole()
                                 .AddFilter(level => level >= LogLevel.Information)))
                     .EnableSensitiveDataLogging()
-                    .EnableDetailedErrors());
+                    .EnableDetailedErrors());*/
 
 
-                services.AddDefaultIdentity<IdentityUser>()
-                    .AddEntityFrameworkStores<Data.ApplicationDbContext>();
 
-                //services.AddScoped<IPostService, PostService>();
-                services.AddScoped<IAccessibilityService, AccessibilityService>();
-                services.AddScoped<ITicketService, TicketService>();
-            }
-            else
-            {
-                Console.WriteLine("Fatal error: environment not found!");
-                Environment.Exit(-1);
-            }
+            /* }
+             else
+             {
+                 Console.WriteLine("Fatal error: environment not found!");
+                 Environment.Exit(-1);
+             }*/
         }
     }
 }

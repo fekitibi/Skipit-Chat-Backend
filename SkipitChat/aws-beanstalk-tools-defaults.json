@@ -1,0 +1,23 @@
+
+{
+    "region" : "eu-central-1",
+    "configuration" : "Debug",
+    "framework"     : "netcoreapp3.1",
+    "self-contained" : false,
+    "application"    : "SkipitChat",
+    "environment"    : "SkipitChat-prod",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-57ccf52a,sg-07b98e16da405b57e\";\"aws:ec2:vpc,Subnets\"=\"subnet-4534a82f\"",
+    "solution-stack"       : "64bit Windows Server 2016 v2.5.10 running IIS 10.0",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "skipitchat-production",
+    "instance-type"        : "t2.micro",
+    "key-pair"             : "skipit_prod_ssh_key",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx",
+    "profile"              : "default_skipit_profile",
+    "iis-website"          : "Default Web Site",
+    "app-path"             : "/"
+}
