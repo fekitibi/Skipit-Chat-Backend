@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Tweetbook-BE0EE6C3-7900-46F0-8C5E-050B178991CD")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkipitChat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]

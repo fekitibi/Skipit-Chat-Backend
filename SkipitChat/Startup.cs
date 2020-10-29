@@ -1,14 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.EntityFrameworkCore;
-using SkipitChat.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -56,12 +47,14 @@ namespace SkipitChat
 
             app.UseCors("MyPolicy");
 
-            app.UseSwagger(option => {
+
+            app.UseSwagger(option =>
+            {
                 option.RouteTemplate = swaggerOptions.JsonRoute;
-                //option.SerializeAsV2 = true;
             });
 
-            app.UseSwaggerUI(option => {
+            app.UseSwaggerUI(option =>
+            {
                 option.SwaggerEndpoint(swaggerOptions.UiEndpoint, swaggerOptions.Description);
             });
 
@@ -70,8 +63,6 @@ namespace SkipitChat
 
             app.UseRouting();
 
-
-            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

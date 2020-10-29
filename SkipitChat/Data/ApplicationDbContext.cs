@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using SkipitChat.Domain;
 
 namespace SkipitChat.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
         }
 
-        public DbSet<Post> Posts { get; set; }
         public DbSet<CityPass> CityPasses { get; set; }
         public DbSet<Zone> Zones { get; set; }
         public DbSet<Accessibility> Accessiblities { get; set; }
@@ -23,11 +18,10 @@ namespace SkipitChat.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Accessibility>()
+            /*modelBuilder.Entity<Accessibility>()
                 .HasData(
                     new Accessibility
                     {
-                        Id = Guid.NewGuid(),
                         StationName = "Station 1",
                         Elevator = true,
                         DisabledService = true,
@@ -41,7 +35,6 @@ namespace SkipitChat.Data
                     },
                     new Accessibility
                     {
-                        Id = Guid.NewGuid(),
                         StationName = "Station 2",
                         Elevator = false,
                         DisabledService = false,
@@ -55,7 +48,6 @@ namespace SkipitChat.Data
                     },
                     new Accessibility
                     {
-                        Id = Guid.NewGuid(),
                         StationName = "Station 3",
                         Elevator = true,
                         DisabledService = false,
@@ -74,14 +66,12 @@ namespace SkipitChat.Data
                 .HasData(
                     new CityPass
                     {
-                        Id = Guid.NewGuid(),
-                        DurationInHour= 244 ,
+                        DurationInHour = 244,
                         CityPass4Price = 2345,
-                        CityPass99Price=3000
+                        CityPass99Price = 3000
                     },
                     new CityPass
                     {
-                        Id = Guid.NewGuid(),
                         DurationInHour = 4,
                         CityPass4Price = 55,
                         CityPass99Price = 90
@@ -89,7 +79,6 @@ namespace SkipitChat.Data
                     },
                     new CityPass
                     {
-                        Id = Guid.NewGuid(),
                         DurationInHour = 24,
                         CityPass4Price = 599,
                         CityPass99Price = 700
@@ -101,18 +90,18 @@ namespace SkipitChat.Data
                 .HasData(
                     new Zone
                     {
-                        Id = 2,
+                        Zones = 2,
                         DurationInMinute = 120,
                         PriceChildren = 5,
                         PriceDisabled = 5,
                         PriceAdult = 10,
-                        PriceElderly = 5, 
+                        PriceElderly = 5,
                         Animal = 20,
                         Bycicle = 20,
                     },
                     new Zone
                     {
-                        Id = 3,
+                        Zones = 3,
                         DurationInMinute = 170,
                         PriceChildren = 4,
                         PriceDisabled = 5,
@@ -124,7 +113,7 @@ namespace SkipitChat.Data
                     },
                     new Zone
                     {
-                        Id = 4,
+                        Zones = 4,
                         DurationInMinute = 120,
                         PriceChildren = 7,
                         PriceDisabled = 5,
@@ -134,7 +123,7 @@ namespace SkipitChat.Data
                         Bycicle = 20,
 
                     }
-                );
+                );*/
         }
     }
 }
