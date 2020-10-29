@@ -7,8 +7,11 @@ namespace SkipitChat.Domain
     {
         [Key]
         public Guid Id { get; set; }
+        [Required]
         public int DurationInHour { get; set; }
+        [Required]
         public float CityPass4Price { get; set; }
+        [Required]
         public float CityPass99Price { get; set; }
     }
 }

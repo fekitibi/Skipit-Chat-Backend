@@ -85,28 +85,21 @@
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\appsettings.Production.json
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\mono_crash.11a6748113.0.json
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.SkipitChat20201027174855 - Web Deploy.json
+C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.SkipitChat20201028164441 - Web Deploy.json
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\SkipitChat20201027174855 - Web Deploy\mssql1.arm.json
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\SkipitChat20201027174855 - Web Deploy\profile.arm.json
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\SkipitChat.StaticWebAssets.xml
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\app.db
+C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\SkipitChat20201028164441 - Web Deploy\mssql1.arm.json
+C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\SkipitChat20201028164441 - Web Deploy\profile.arm.json
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\SkipitChat.exe
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\SkipitChat.deps.json
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\SkipitChat.runtimeconfig.json
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\SkipitChat.runtimeconfig.dev.json
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\SkipitChat.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\SkipitChat.pdb
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -126,20 +119,18 @@ C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\D
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\MySqlConnector.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
@@ -150,6 +141,7 @@ C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\D
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\bin\Debug\netcoreapp3.1\System.Text.Json.dll
@@ -185,4 +177,3 @@ C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\obj\D
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\obj\Debug\netcoreapp3.1\SkipitChat.dll
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\obj\Debug\netcoreapp3.1\SkipitChat.pdb
 C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\obj\Debug\netcoreapp3.1\SkipitChat.genruntimeconfig.cache
-C:\Users\Filip Skukan\Source\Repos\fekitibi\Skipit-Chat-Backend\SkipitChat\obj\Debug\netcoreapp3.1\SkipitChat.csprojAssemblyReference.cache

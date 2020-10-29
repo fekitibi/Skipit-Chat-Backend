@@ -7,7 +7,7 @@ using SkipitChat.Domain;
 
 namespace SkipitChat.Services
 {
-    public class TicketService:ITicketService
+    public class TicketService : ITicketService
     {
         private readonly ApplicationDbContext _dbContext;
 
@@ -34,7 +34,7 @@ namespace SkipitChat.Services
 
         public async Task<Zone> GetZoneByZoneNumber(int zoneNumber)
         {
-            return await _dbContext.Zones.SingleOrDefaultAsync(x => x.Id == zoneNumber);
+            return await _dbContext.Zones.SingleOrDefaultAsync(x => x.ZoneValue == zoneNumber);
         }
     }
 }
